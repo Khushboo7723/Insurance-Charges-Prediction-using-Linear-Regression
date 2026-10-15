@@ -1,6 +1,7 @@
 Insurance Charges Prediction using Linear Regression
 
 Project Overview
+
 This project uses Machine Learning to predict medical insurance charges based on personal attributes such as age, gender, BMI, number of children, and smoking status.
 A Linear Regression model is trained using Python and Scikit-learn to estimate insurance charges from the available data.
 
@@ -56,13 +57,6 @@ Evaluation Metric   Score
 R² Score            0.7811
 Adjusted R² Score   0.7770
 The model achieved an R² score of approximately 0.78 on the test dataset.
-
-Future Improvements
-* Include the `region` feature using appropriate categorical encoding.
-* Compare Linear Regression with other regression algorithms.
-* Evaluate the model using MAE, MSE, and RMSE.
-* Improve preprocessing and feature selection.
-* Experiment with hyperparameter tuning where applicable.
 
 Conclusion
 This project demonstrates a basic Machine Learning workflow for predicting medical insurance charges using Linear Regression. It covers data loading, visualization, feature encoding, model training, prediction, and evaluation.
